@@ -12,7 +12,7 @@
     </td>
     <!-- Imagen derecha -->
     <td style="width:10%; text-align:center; vertical-align:middle;">
-      <img src="assets/oracle-one.png" alt="Logo de Oracle más el de Alura Latam" style="width:50px; height:50px;">
+      <img src="assets/oracle-alura.png" alt="Logo de Oracle más el de Alura Latam" style="width:50px; height:50px;">
     </td>
   </tr>
 </table>
