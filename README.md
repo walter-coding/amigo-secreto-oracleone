@@ -1,3 +1,4 @@
+![alt text][logo](https://github.com/walter-coding/amigo-secreto-oracleone/blob/main/assets/oracle-one.png)
 # Proyecto Amigo Secreto - Oracle One
 <!-- Tabla para centrar el título con imágenes a los lados -->
 <table style="width:100%; border:0; table-layout:fixed;">
