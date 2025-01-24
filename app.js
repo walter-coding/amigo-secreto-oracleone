@@ -178,5 +178,3 @@ function cleanFriendsList(){
         parentElement.removeChild(element);
     });
 }
-
-
