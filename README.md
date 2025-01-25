@@ -25,6 +25,22 @@ Esta funcionalidad permite elegir mediante un click ese nombre que se desea modi
 
 ![imagen del mensaje de error funcionalidad N.º 3 - parte a](./assets/funcionalidad3a.png)
 
-Si el usuario hace click en la opción de **Aceptar** el nombre elegido para la modificación pasa a tener sus caracteres correspondientes en color azul y a su derecha aparece el siguiente texto: **-> Modificar este nombre**. Otro cambio que sucede es que se modifica el título de la página que dice: **Digite el nombre de sus amigos** por el siguiente: ** **
+Si el usuario hace click en la opción de **Aceptar** el nombre elegido para la modificación pasa a tener sus caracteres correspondientes en color azul y a su derecha aparece el siguiente texto: **-> Modificar este nombre**. Otro cambio que sucede es que se modifica el título de la página que dice: **Digite el nombre de sus amigos** por el siguiente: **Ingrese el nombre modificado**. La imagen que se muestra a continuación, lo pone de manifiesto:
+
+![imagen que muestra los cambios asociados a la parte b de la funcionalidad N.º3](./assets/funcionalidad3b.png)
+
+La imagen precedente muestra que una en el campo de ingreso de nombres, aparece ya cargado el nombre que se ha escogido para realizar la modificación. Si hay errores al momento de modificarlo, se pondrá en acción la funcionalidad N.º 2. Si el nombre ha sido modificado correctamente, vuelve a aparecer en la lista de amigos ya actualizado y con el mismo color de letra que tenía antes de ser modificado. También desaparece el mensaje indicador en letras rojas que decía que ese nombre se debe modificar y de igual forma regresa el título principal de la página **"Digite el nombre de sus amigos"**. Estas imágenes así lo evidencian:
+
+#### Al momento de actualizar el nombre de la lista
+![imagen con la actualización ya realizada, parte c de la funcionalidad N.º3](./assets/funcionalidad3c.png)
+
+#### Una vez que ha sido actualizado el nombre
+![imagen con el nombre ya actualizado en la lista](./assets/funcionalidad3d.png)
+
+### Funcionalidad N.º 4: Mensaje de comprobación antes del sorteo
+
+Previo a realizar el sorteo de nombres de la lista de amigos que fue ingresada
 
 
+
+Una v
