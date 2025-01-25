@@ -41,8 +41,8 @@ La imagen precedente muestra que una en el campo de ingreso de nombres, aparece 
 
 Previo a realizar el sorteo de nombres de la lista de amigos que fue ingresada, al momento de hacer click en el botón **Sortear nombre**, aparece un cuadro emergente donde pregunta lo siguiente: **¿La lista con los nombres de sus amigos está completa y con los nombres ingresados correctamente?**. En caso de presionar **Aceptar** es la única vez que verá ese cuadro de diálogo, y ya podrá ver ese amigo secreto que aparece en forma aleatoria, si vuelve a hacer click sobre el botón **Sortear nombre** aparecerá otro amigo de la lista que usted ya ingresó. Si por alguna razón puso en cancelar en respuesta a la pregunta del cuadro emergente, el usuario final puede seguir añadiendo nombres a la lista de amigos y modificar aquellos que considere necesarios de acuerdo a las funcionalidad anterior. Aquí vemos, en las siguientes imágenes como se logra con el cometido del juego del amigo secreto:
 
+#### Ventana emergente para consultar si todos los datos son correctos y no falta ninguno previo al sorteo del amigo secreto
+![imagen que muestra la ventana emergente antes de realizar el sorteo del amigo secreto](./assets/funcionalidad4a.png)
 
-
-
-
-Una v
+#### Salida correspondiente a la elección del amigo secreto
+![imagen que muestra el resultado del sorteo del amigo secreto](./assets/funcionalidad4b.png)
