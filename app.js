@@ -3,10 +3,10 @@ let updateFriendName = false;
 let liElement = {};
 let popupShown = false;
 let selection = false;
-let lista = {};
+let list = {};
 let newDiv = {};
 let newDiv2 = {};
-let nuevoLI = {};
+let newLI = {};
 let indexValue = -1;
 let inputElement = document.querySelector('#amigo');
 let buttonElement = document.querySelector('.button-add');
@@ -74,23 +74,23 @@ function toUpperCaseName(name) {
 }
 
 function agregarElemento(varFriendName) {
-    lista = document.querySelector('#listaAmigos');
+    list = document.querySelector('#listaAmigos');
     newDiv = document.createElement('div');
     newDiv.className = 'div-items';
-    nuevoLI = document.createElement('li');
-    nuevoLI.textContent = varFriendName;
-    nuevoLI.id = `${friends.length}`;   
+    newLI = document.createElement('li');
+    newLI.textContent = varFriendName;
+    newLI.id = `${friends.length}`;   
 
     newDiv2 = document.createElement('div');
     newDiv2.style.display = 'none';
     newDiv2.className = 'div-message';
     newDiv2.id = `message-${friends.length}`;
 
-    nuevoLI.addEventListener('click',handlingEvent);
+    newLI.addEventListener('click',handlingEvent);
 
-    newDiv.appendChild(nuevoLI);
+    newDiv.appendChild(newLI);
     newDiv.appendChild(newDiv2);
-    lista.appendChild(newDiv);    
+    list.appendChild(newDiv);    
 }
 
 function handlingEvent(evt){
@@ -105,8 +105,6 @@ function handlingEvent(evt){
     adyacentElement.style.fontWeight = 'bold';
     adyacentElement.style.color = '#e55720';
     
-    console.log(`tag: ${liElement}`);
-
     let result = confirm('¿Desea modificar el nombre de su amigo/a?');
         
     if(result){
@@ -120,7 +118,7 @@ function handlingEvent(evt){
             
         allLI.forEach(liItem => {
             if(liItem.id !== liElement.id){
-                liItem.classList.add('desactivado');
+                liItem.classList.add('deactivated');
             }
         });
             
@@ -136,7 +134,7 @@ function updateName(name) {
 
     allLI.forEach(liItem => {
         if(liItem.id !== liElement.id){
-            liItem.classList.remove('desactivado');
+            liItem.classList.remove('deactivated');
         }
     });
 
