@@ -7,10 +7,24 @@ El presente proyecto tiene por finalidad poner en práctica los conocimientos ad
 
 ## Funcionalidades
 
-### Funcionalidad Nº 1: Mensaje de error cuando no hay amigos ingresados
+### Funcionalidad N.º 1: Mensaje de error cuando no hay amigos ingresados
 
 Esta funcionalidad se caracteriza por el hecho de que si el usuario final presiona el botón de *Sortear amigo* sin haber agregado ningún nombre de alguno de sus amigos aparecerá un cuadro emergente informando lo siguiente: *No hay amigos para sortear. Por favor, agregue amigos en la lista.*
 
-![gif asociado a mostrar la aparición del mensaje de error de la funcionalidad Nº 1](media/error-func1.mp4)
+![imagen del mensaje de error de la funcionalidad Nº 1](./assets/funcionalidad1.png)
 
-### Funcionalidad Nº 2:
+### Funcionalidad N.º 2: Mensaje de error asociado a nombres
+
+Para esta funcionalidad, cuando el usuario final ingresa el nombre de cada uno de sus amigos en el input correspondiente, si digita caracteres que no son válidos, es decir aquellos que no se corresponden con el alfabeto latino u otro tipo de caracteres diacríticos, aparece un cuadro emergente indicando lo siguiente: *Por favor, inserte un nombre.*. También dicho mensaje de error aparece cuando el usuario no ha ingresado ningún nombre y presiona la tecla **ENTER** o hace click en el botón **Añadir**.
+
+![imagen del mensaje de error de la funcionalidad N.º 2](./assets/funcionalidad2.png)
+
+### Funcionalidad N.º 3: Modificación de los nombres ingresados
+
+Esta funcionalidad permite elegir mediante un click ese nombre que se desea modificar debido a un error de ingreso en alguno o algunos de sus caracteres. Una vez efectuado el click, sale un cuadro emergente con este mensaje: **¿Desea modificar el nombre de su amigo/a?**, tal como lo muestra la siguiente imagen:
+
+![imagen del mensaje de error funcionalidad N.º 3 - parte a](./assets/funcionalidad3a.png)
+
+Si el usuario hace click en la opción de **Aceptar** el nombre elegido para la modificación pasa a tener sus caracteres correspondientes en color azul y a su derecha aparece el siguiente texto: **-> Modificar este nombre**. Otro cambio que sucede es que se modifica el título de la página que dice: **Digite el nombre de sus amigos** por el siguiente: ** **
+
+
